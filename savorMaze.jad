@@ -1,0 +1,9 @@
+MIDlet-1: GameRunner,,com.savorjava.game.savormaze.GameRunner
+MIDlet-Jar-URL: savorMaze.jar
+MIDlet-Icon: /icon.png
+Nokia-MIDlet-Category: Game
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Version: 1.0.1
+MIDlet-Name: SavorMaze
+MIDlet-Vendor: savorjava@yahoo.com.cn
+MicroEdition-Profile: MIDP-1.0

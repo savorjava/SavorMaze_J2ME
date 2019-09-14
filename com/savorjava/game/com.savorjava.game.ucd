@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="960,846" id="com.savorjava.game" metadata="uml2-1.0" initialized="true" scrolledY="10" tag="1000" key="3230303431303236207361766F724D617A652F436F6C696E">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="CoreCanvas" location="70,116" size="179,427" id="com.savorjava.game/CoreCanvas" packageIndication="1" runTimeClassModel="CoreCanvas(),setAttribute(Ljava.lang.String;Ljava.lang.Object;),removeAttribute(Ljava.lang.String;),regRunAction(Lcom.savorjava.game.Action;),setBufferedGraphics(Ljavax.microedition.lcdui.Graphics;),gameRunner,gS_START,getSleepTime(),gS_END,run(),setSleepTime(I),gS_INITIAL,setGameStatus(I),regEndAction(Lcom.savorjava.game.Action;),gS_RUN,getAttribute(Ljava.lang.String;),regInitialAction(Lcom.savorjava.game.Action;),getBufferedGraphics(),getGameStatus(),regStartAction(Lcom.savorjava.game.Action;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="156,234">
+      <children xsi:type="editmodel:AttributeEditModel" name="gS_INITIAL" id="com.savorjava.game/CoreCanvas#gS_INITIAL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gS_START" id="com.savorjava.game/CoreCanvas#gS_START"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gS_RUN" id="com.savorjava.game/CoreCanvas#gS_RUN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gS_END" id="com.savorjava.game/CoreCanvas#gS_END"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="initialAction" id="com.savorjava.game/CoreCanvas#initialAction"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="startAction" id="com.savorjava.game/CoreCanvas#startAction"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="runAction" id="com.savorjava.game/CoreCanvas#runAction"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="endAction" id="com.savorjava.game/CoreCanvas#endAction"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="currentAction" id="com.savorjava.game/CoreCanvas#currentAction"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="statusChanged" id="com.savorjava.game/CoreCanvas#statusChanged"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="attributes" id="com.savorjava.game/CoreCanvas#attributes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bufferedImage" id="com.savorjava.game/CoreCanvas#bufferedImage"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bufferedGraphics" id="com.savorjava.game/CoreCanvas#bufferedGraphics"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="133,270">
+      <children xsi:type="editmodel:MethodEditModel" name="CoreCanvas" id="com.savorjava.game/CoreCanvas#CoreCanvas()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.savorjava.game/CoreCanvas#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regInitialAction" id="com.savorjava.game/CoreCanvas#regInitialAction(Lcom.savorjava.game.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regStartAction" id="com.savorjava.game/CoreCanvas#regStartAction(Lcom.savorjava.game.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regRunAction" id="com.savorjava.game/CoreCanvas#regRunAction(Lcom.savorjava.game.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="regEndAction" id="com.savorjava.game/CoreCanvas#regEndAction(Lcom.savorjava.game.Action;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getBufferedGraphics" id="com.savorjava.game/CoreCanvas#getBufferedGraphics()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAttribute" id="com.savorjava.game/CoreCanvas#getAttribute(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" source="//@children.0" target="//@children.4" targetEnd="//@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="179,220" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,96"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GameRunner" location="410,30" size="134,121" id="com.savorjava.game.savormaze/GameRunner" packageIndication="1" runTimeClassModel="GameRunner(),lEVEL,midlet,rOBOTRUN">
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="midlet" id="com.savorjava.game.savormaze/GameRunner#midlet"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rOBOTRUN" id="com.savorjava.game.savormaze/GameRunner#rOBOTRUN"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lEVEL" id="com.savorjava.game.savormaze/GameRunner#lEVEL"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,18">
+      <children xsi:type="editmodel:MethodEditModel" name="GameRunner" id="com.savorjava.game.savormaze/GameRunner#GameRunner()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="javax.microedition.midlet/MIDlet&lt;-com.savorjava.game.savormaze/GameRunner" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="Manual" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,44" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="250,14"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.1/@children.1" sourceEnd="//@children.1/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,103" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="179,17"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="MIDlet" location="70,60" size="250,29" id="javax.microedition.midlet/MIDlet" packageIndication="2">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,72"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="2" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MazeStartAction" location="490,380" size="147,139" id="com.savorjava.game.savormaze/MazeStartAction" packageIndication="1" runTimeClassModel="perform(Ljavax.microedition.lcdui.Graphics;),commandAction(Ljavax.microedition.lcdui.Command;Ljavax.microedition.lcdui.Displayable;),interrupt(I),MazeStartAction(Lcom.savorjava.game.CoreCanvas;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="menu" id="com.savorjava.game.savormaze/MazeStartAction#menu"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="currentMenu" id="com.savorjava.game.savormaze/MazeStartAction#currentMenu"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="currentChoice" id="com.savorjava.game.savormaze/MazeStartAction#currentChoice"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="drawTie" id="com.savorjava.game.savormaze/MazeStartAction#drawTie"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,90">
+      <children xsi:type="editmodel:MethodEditModel" name="MazeStartAction" id="com.savorjava.game.savormaze/MazeStartAction#MazeStartAction(Lcom.savorjava.game.CoreCanvas;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.savorjava.game/Action&lt;-com.savorjava.game.savormaze/MazeStartAction" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,92" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.6/@sourceConnections.0 //@children.0/@sourceConnections.0" name="Action" location="310,240" size="145,193" id="com.savorjava.game/Action" packageIndication="1" runTimeClassModel="perform(Ljavax.microedition.lcdui.Graphics;),commandAction(Ljavax.microedition.lcdui.Command;Ljavax.microedition.lcdui.Displayable;),setActing(Z),interrupt(I),Action(Lcom.savorjava.game.CoreCanvas;),isActing()">
+    <children xsi:type="editmodel:CompartmentEditModel">
+      <children xsi:type="editmodel:AttributeEditModel" name="canvas" id="com.savorjava.game/Action#canvas"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="acting" id="com.savorjava.game/Action#acting"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,108">
+      <children xsi:type="editmodel:MethodEditModel" name="perform" id="com.savorjava.game/Action#perform(Ljavax.microedition.lcdui.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="interrupt" id="com.savorjava.game/Action#interrupt(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Action" id="com.savorjava.game/Action#Action(Lcom.savorjava.game.CoreCanvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isActing" id="com.savorjava.game/Action#isActing()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setActing" id="com.savorjava.game/Action#setActing(Z)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="commandAction" id="com.savorjava.game/Action#commandAction(Ljavax.microedition.lcdui.Command;Ljavax.microedition.lcdui.Displayable;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MazeInitialAction" location="490,160" size="153,67" id="com.savorjava.game.savormaze/MazeInitialAction" packageIndication="1" runTimeClassModel="perform(Ljavax.microedition.lcdui.Graphics;),MazeInitialAction(Lcom.savorjava.game.CoreCanvas;),run()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,72">
+      <children xsi:type="editmodel:MethodEditModel" name="MazeInitialAction" id="com.savorjava.game.savormaze/MazeInitialAction#MazeInitialAction(Lcom.savorjava.game.CoreCanvas;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.savorjava.game/Action&lt;-com.savorjava.game.savormaze/MazeInitialAction" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan" autoLocated="true">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,67" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MazeRunAction" location="680,200" size="165,319" id="com.savorjava.game.savormaze/MazeRunAction" packageIndication="1" runTimeClassModel="sOUTH,MazeRunAction(Lcom.savorjava.game.CoreCanvas;),commandAction(Ljavax.microedition.lcdui.Command;Ljavax.microedition.lcdui.Displayable;),eAST,nORTH,rUN,iNITIAL,run(),wEST,perform(Ljavax.microedition.lcdui.Graphics;),pAUSE,pASS,interrupt(I),sTOP">
+    <children xsi:type="editmodel:CompartmentEditModel" size="135,162">
+      <children xsi:type="editmodel:AttributeEditModel" name="grid" id="com.savorjava.game.savormaze/MazeRunAction#grid"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="gridSize" id="com.savorjava.game.savormaze/MazeRunAction#gridSize"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="random" id="com.savorjava.game.savormaze/MazeRunAction#random"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="level" id="com.savorjava.game.savormaze/MazeRunAction#level"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rooms" id="com.savorjava.game.savormaze/MazeRunAction#rooms"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="hacker" id="com.savorjava.game.savormaze/MazeRunAction#hacker"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="robot" id="com.savorjava.game.savormaze/MazeRunAction#robot"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="robotMemory" id="com.savorjava.game.savormaze/MazeRunAction#robotMemory"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="roomsNeedDraw" id="com.savorjava.game.savormaze/MazeRunAction#roomsNeedDraw"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,108">
+      <children xsi:type="editmodel:MethodEditModel" name="MazeRunAction" id="com.savorjava.game.savormaze/MazeRunAction#MazeRunAction(Lcom.savorjava.game.CoreCanvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialRooms" id="com.savorjava.game.savormaze/MazeRunAction#initialRooms()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawRoomsNeedDraw" id="com.savorjava.game.savormaze/MazeRunAction#drawRoomsNeedDraw(Ljavax.microedition.lcdui.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawMaze" id="com.savorjava.game.savormaze/MazeRunAction#drawMaze(Ljavax.microedition.lcdui.Graphics;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawRoom" id="com.savorjava.game.savormaze/MazeRunAction#drawRoom(Ljavax.microedition.lcdui.Graphics;III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRandomNeighbor" id="com.savorjava.game.savormaze/MazeRunAction#getRandomNeighbor([[III)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="com.savorjava.game/Action&lt;-com.savorjava.game.savormaze/MazeRunAction" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,95" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="143,55" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
